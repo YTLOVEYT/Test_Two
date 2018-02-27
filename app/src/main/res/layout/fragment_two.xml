@@ -1,0 +1,16 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    tools:context="com.example.two.vt.TwoFragment">
+
+    <com.example.two.widget.SideCutListView
+        android:id="@+id/slideListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:listSelector="@android:color/transparent"/>
+
+</FrameLayout>

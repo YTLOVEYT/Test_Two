@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.two.rl.MainPage2Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#f4f4f4"
+        android:orientation="vertical"
+        android:paddingBottom="1dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_chat_bg"
+            android:gravity="center"
+            android:text="聊天"
+            android:textColor="@drawable/main_button_text_color"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_contact_list_bg"
+            android:gravity="center"
+            android:text="联系人"
+            android:textColor="@drawable/main_button_text_color"/>
+
+        <RadioButton
+            android:id="@+id/rb_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_find_bg"
+            android:gravity="center"
+            android:text="朋友圈"
+            android:textColor="@drawable/main_button_text_color"/>
+
+        <RadioButton
+            android:id="@+id/rb_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_profile_bg"
+            android:gravity="center"
+            android:text="我"
+            android:textColor="@drawable/main_button_text_color"/>
+    </RadioGroup>
+
+</LinearLayout>
